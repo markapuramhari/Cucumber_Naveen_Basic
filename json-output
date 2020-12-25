@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "background steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19467685700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "OrangeHRMsteps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17090395500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open OrangeHRM homepage",
+            "match": {
+              "location": "OrangeHRMsteps.user_open_OrangeHRM_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 423144300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify that the logo presence on homepage",
+            "match": {
+              "location": "OrangeHRMsteps.user_verify_that_the_logo_presence_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T00:21:48.266Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1321600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrangeHRMsteps.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Login to OrangeHRM with valid credentials",
+        "description": "  Description:.........#Check valid Login..................",
+        "id": "orangehrm-login;login-to-orangehrm-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 158200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrangeHRMsteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 274526000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter username \"Admin\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "OrangeHRMsteps.enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48586093200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click login button",
+            "match": {
+              "location": "OrangeHRMsteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3437935700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user must successfully login to the Dashboard page",
+            "match": {
+              "location": "OrangeHRMsteps.user_must_successfully_login_to_the_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7011913800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "close browser",
+            "match": {
+              "location": "OrangeHRMsteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End2End"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Login",
+    "description": "  Description:.........OrangeHRM Login.................",
+    "id": "orangehrm-login",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/cropin/AppFeatures/OrangeHRM-Login.feature",
+    "tags": []
+  }
+]

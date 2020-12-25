@@ -1,0 +1,1110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "background steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18328529000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5008771700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open OrangeHRM homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_open_OrangeHRM_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490487400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify that the logo presence on homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_verify_that_the_logo_presence_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T07:07:17.614Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1994300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Check Logo presence on OrangeHRM homepage",
+        "description": "  Description:.........#Check Logo presence...................",
+        "id": "orangehrm-login;check-logo-presence-on-orangehrm-homepage",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3340177800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "close browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "background steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8017689500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6111931000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open OrangeHRM homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_open_OrangeHRM_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51526300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify that the logo presence on homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_verify_that_the_logo_presence_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T07:07:45.730Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Login to OrangeHRM with valid credentials",
+        "description": "  Description:.........#Check valid Login..................",
+        "id": "orangehrm-login;login-to-orangehrm-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 455022900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter username \"Admin\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8650858900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click login button",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81676300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user must successfully login to the Dashboard page",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_must_successfully_login_to_the_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3122861800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "close browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "background steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7225297600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9742096200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open OrangeHRM homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_open_OrangeHRM_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62871600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify that the logo presence on homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_verify_that_the_logo_presence_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T07:08:12.256Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2991000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Login to OrangeHRM with Invalid credentials",
+        "description": "  Description:.........#Check Invalid Login......................",
+        "id": "orangehrm-login;login-to-orangehrm-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 259363600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enter username \"username\" and password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3295962900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click login button",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48104500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user must Invalid login page",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_must_Invalid_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3098552500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "close browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "background steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9790384300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7812220500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open OrangeHRM homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_open_OrangeHRM_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75797200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify that the logo presence on homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_verify_that_the_logo_presence_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T07:08:36.025Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.setUp()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Login to OrangeHRM with Invalid credentials",
+        "description": "  Description:.........#Check Invalid Login......................",
+        "id": "orangehrm-login;login-to-orangehrm-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1994100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 273271100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enter username \"admin\" and password \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Admin123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1652235100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click login button",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43449300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user must Invalid login page",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_must_Invalid_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3255742700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "close browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "background steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6558688700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20131563600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open OrangeHRM homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_open_OrangeHRM_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79787800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify that the logo presence on homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_verify_that_the_logo_presence_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T07:08:58.952Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.setUp()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Login to OrangeHRM with Invalid credentials",
+        "description": "  Description:.........#Check Invalid Login......................",
+        "id": "orangehrm-login;login-to-orangehrm-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1016300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 484990100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enter username \"Admin123\" and password \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin123\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Admin\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1256254600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click login button",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61841500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user must Invalid login page",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_must_Invalid_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3116594300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "close browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "background steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9399959600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6144904000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open OrangeHRM homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_open_OrangeHRM_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68811900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify that the logo presence on homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_verify_that_the_logo_presence_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T07:09:30.661Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.setUp()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Login to OrangeHRM with Invalid credentials",
+        "description": "  Description:.........#Check Invalid Login......................",
+        "id": "orangehrm-login;login-to-orangehrm-with-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 683185800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enter username \"Admin\" and password \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1545958400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click login button",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168039800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user must Invalid login page",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_must_Invalid_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3106834600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "close browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "background steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9977737200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6103363800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open OrangeHRM homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_open_OrangeHRM_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58842300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify that the logo presence on homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_verify_that_the_logo_presence_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T07:09:51.806Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.setUp()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Login to OrangeHRM with Invalid credentials",
+        "description": "  Description:.........#Check Invalid Login......................",
+        "id": "orangehrm-login;login-to-orangehrm-with-invalid-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 283470200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enter username \"\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157578600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click login button",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65551700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user must Invalid login page",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_must_Invalid_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3150929600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "close browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "background steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7349919400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15709932200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open OrangeHRM homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_open_OrangeHRM_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65823500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify that the logo presence on homepage",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_verify_that_the_logo_presence_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-25T07:10:11.625Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.setUp()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Login to OrangeHRM with Invalid credentials",
+        "description": "  Description:.........#Check Invalid Login......................",
+        "id": "orangehrm-login;login-to-orangehrm-with-invalid-credentials;;7",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 174236000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "enter username \"\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145610100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click login button",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50861700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user must Invalid login page",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.user_must_Invalid_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3077212700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "close browser",
+            "match": {
+              "location": "com.cropin.stepDefinitions.OrangeHRMsteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Login",
+    "description": "  Description:.........OrangeHRM Login.................",
+    "id": "orangehrm-login",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/cropin/AppFeatures/OrangeHRM-Login.feature",
+    "tags": []
+  }
+]
